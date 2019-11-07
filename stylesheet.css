@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
 .bg_test {
     background-color: #FF3300;   /* 背景色指定 */
 }
