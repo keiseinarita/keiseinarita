@@ -67,6 +67,12 @@ a {
   width: 200px;
 }
 
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
 .heading h1{
     font-size: 60px;
     color: red;
