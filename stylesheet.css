@@ -119,8 +119,13 @@ h3 {
 }
 
 @media (max-width: 670px) {
-    .size li {
+    
+    .bg_test {
         width: 100%;
+    }
+    
+    .size li {
+        width: 100%; 
     }
 }
     
