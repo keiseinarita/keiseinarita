@@ -115,6 +115,12 @@ h3 {
   font-size: 23px;
   text-align: left;
   font-weight: bold;
-  padding-right: 220px;
-
+  padding-right: 220pxsize
 }
+
+@media (max-width: 670px) {
+    .size li {
+        width: 100%;
+    }
+}
+    
