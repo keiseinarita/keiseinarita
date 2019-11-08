@@ -167,7 +167,8 @@ h3 {
     }
     
     .box:nth-child {
-        width: 100%;
+        none: none;
+        
     }
     
     .size h1 {
