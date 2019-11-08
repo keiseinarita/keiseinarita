@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .bg_test {
     background-color: #FF3300;   /* 背景色指定 */
 }
