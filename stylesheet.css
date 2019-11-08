@@ -175,8 +175,10 @@ h3 {
     }
     
     .size h1 {
-        width: 100%;
+        font-size: 30px;
+        color: red
     }
+        
     
     .size li {
         font-size: 15px;
