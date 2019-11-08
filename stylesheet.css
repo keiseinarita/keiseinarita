@@ -132,6 +132,14 @@ h3 {
         width:100%;
     }
     
+    header {
+        width: 100%;
+    }
+    
+    .bg_test3 h1 {
+        width: 100%
+    }
+    
     .size li {
         width: 100%; 
     }
