@@ -175,15 +175,12 @@ h3 {
     }
     
     .size h1 {
-        font-size: 30px;
-        color: red;
-        padding-rigth: 0px;
+       width: 100% 
     }
         
     
     .size li {
-        font-size: 15px;
-        text-align: center;
+        width: 100%
     }
 }
     
