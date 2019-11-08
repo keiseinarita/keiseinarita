@@ -140,6 +140,25 @@ h3 {
         width: 100%
     }
     
+    body {
+        width: 100%;
+    }
+    
+    .box {
+        width: 100%;
+    }
+    
+    .test {
+        width: 100%;
+    }
+    
+    h2 {
+        width: 100%;
+    }
+    
+    h3 {
+        width: 100%;
+    }
     .size li {
         width: 100%; 
     }
