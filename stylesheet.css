@@ -168,6 +168,14 @@ h3 {
         width: 100%;
     }
     
+    .box:nth-child {
+        width: 100%;
+    }
+    
+    .size h1 {
+        width: 100%;
+    }
+    
     .size li {
         width: 100%; 
     }
