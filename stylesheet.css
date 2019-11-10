@@ -132,13 +132,17 @@ body {
     float: none;
   }
   
-  .container2
+  .container2 {
     float: none;
   }
   
   .container3 {
     float: none;
   }
-  }
+  
+  header {
+  height: 200px;
+}
+  
   
 }
