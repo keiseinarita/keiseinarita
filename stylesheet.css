@@ -72,9 +72,8 @@ body {
 }
 
 .box {
-  display:flex;
-  flex-direction: row;
-  
+  float: left;
+
   padding-bottom: 10px;
   padding-top: 3px;
   padding-right: 30px;
@@ -128,34 +127,7 @@ body {
   flex-direction: row-reverse;
 
 @media (max-width: 670px) {
-  
-  .img {
-    float: none;
+  .container {
+    width: 100;
   }
-  
-  .body {
-    width: 100%;
-  }
-
-.text {
-  width: 100%;
-  }
-
-.box {
-  width: 100%
-  }
-  
-  .pith img {
-  width: 100%;
-  height: auto;
-}
-  
-  .box {
- 
-  
-  padding-bottom: 10px;
-  padding-top: 3px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
 }
