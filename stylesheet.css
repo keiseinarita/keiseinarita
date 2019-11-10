@@ -130,5 +130,10 @@ body {
 @media (max-width: 670px) {
   .container {
     width: 100;
-  }
+ }
+	
+  .text3 {
+	  width: 100%;
+	}
+	
 }
