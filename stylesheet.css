@@ -130,12 +130,13 @@ body {
 @media (max-width: 670px) {
   .body {
     width: 50%;
-    {
+  }
 
 .box:nth-child(even) {
   display: none;
-      }
- 
-    
-  
+  }
+
+.box {
+  justify-content: none;  
+  }
 }
