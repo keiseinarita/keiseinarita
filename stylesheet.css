@@ -129,5 +129,16 @@ body {
 @media (max-width: 670px) {
   .container {
     width: 100;
+    float: none;
   }
+  
+  .container2
+    float: none;
+  }
+  
+  .container3 {
+    float: none;
+  }
+  }
+  
 }
