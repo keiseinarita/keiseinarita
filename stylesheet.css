@@ -72,6 +72,8 @@ body {
 }
 
 .box {
+  display:flex;
+  flex-direction: row;
   
   padding-bottom: 10px;
   padding-top: 3px;
@@ -149,8 +151,7 @@ body {
 }
   
   .box {
-  display:flex;
-  flex-direction: row;
+ 
   
   padding-bottom: 10px;
   padding-top: 3px;
