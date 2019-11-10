@@ -128,7 +128,9 @@ body {
   flex-direction: row-reverse;
 
 @media (max-width: 670px) {
-  
+  .body {
+    width: 100%;
+    {
 
  
     
