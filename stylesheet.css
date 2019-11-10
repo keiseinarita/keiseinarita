@@ -119,7 +119,7 @@ body {
   flex-direction: row-reverse;
 }
 
-.box3 {
+.text3 {
   height: 20px;
   width:100%;	
   color: white;
@@ -139,7 +139,7 @@ body {
 		display: none;
 	}
 	
-	.box3 {
+	.text3 {
 	width: 100%;
 		
 	}
