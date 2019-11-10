@@ -129,8 +129,15 @@ body {
 
 @media (max-width: 670px) {
   .container {
-    width: 100;
+    width: 100%;
   }
+  
+  .container2 {
+    width: 100%;
 }
+  
+  .container3 {
+    width: 100%;
+  }
 
     
