@@ -120,6 +120,7 @@ body {
 }
 
 .text3 {
+  width:100%;	
   color: white;
   font-size: 30px;
   line-height: 5px;
