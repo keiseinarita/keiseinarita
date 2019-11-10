@@ -134,7 +134,7 @@ body {
   
   .container2 {
     width: 100%;
-}
+  }
   
   .container3 {
     width: 100%;
@@ -144,3 +144,7 @@ body {
     font-size: 60px;
   }
     
+  .box:nth-child(even) {
+    display: none;
+  }
+}
