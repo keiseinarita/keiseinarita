@@ -128,17 +128,7 @@ body {
   flex-direction: row-reverse;
 
 @media (max-width: 670px) {
-  .container {
-    width: 100%;
-  }
   
-  .container2 {
-    width: 100%;
-  }
-  
-  .container3 {
-    width: 100%;
-  }
 
   h2 {
     font-size: 100px;
