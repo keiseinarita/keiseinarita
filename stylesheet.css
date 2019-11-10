@@ -141,10 +141,8 @@ body {
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 100px;
   }
     
-  .box:nth-child(even) {
-    display: none;
-  }
+  
 }
