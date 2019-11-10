@@ -74,7 +74,7 @@ body {
 .box {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  
   padding-bottom: 10px;
   padding-top: 3px;
   padding-right: 30px;
