@@ -127,20 +127,38 @@ body {
   flex-direction: row-reverse;
 
 @media (max-width: 670px) {
-  .container {
-    width: 100;
-  }
   
-  .container2 {
-    width: 100%;
-  }
-  
-  .container3 {
-    width: 100%;
-  }
   
   header {
   height: auto;
 }
 
+  .container {
+    height: 1px;                  /* 高さ指定 */
+    padding:  15px;                 /* 余白指定 */
+    font-size: 20px;
+    width: 100%;
+               /* 文字サイズ指定 */
+}
+
+.container2 {
+    color:  #000;                   /* 文字色指定 */
+    height: 1px;                  /* 高さ指定 */
+    width: 100%;                    /* 幅指定 */            /* 文字サイズ指定 */ */
+    padding:  15px;                 /* 余白指定 */
+    float:  right;                  /* 位置指定 */
+               /* 位置指定 */
+    top: 15px;                     /* 位置指定 */
+}
+
+.container3 {
+    color:  #009966;                   /* 文字色指定 */
+    height: 1px;                  /* 高さ指定 */
+    width:  100%;                  /* 幅指定 */
+    padding: 15px;                 /* 余白指定 */
+    float:  right;                  /* 位置指定 */
+               /* 位置指定 */
+    top: 15px;
+                /* 位置指定 */
+}
 }
