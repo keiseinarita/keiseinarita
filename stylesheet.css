@@ -137,6 +137,6 @@ body {
   }
 
 .box {
-  justify-content: none;  
+  display: block;
   }
 }
