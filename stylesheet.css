@@ -127,14 +127,7 @@ body {
 }
 
 
-@media (max-width: 670px) {
-  .container {
-    width: 100;
- }
-	
-  .text3 {
-	  width: 100%;
-	  heigth: 0 auto;
-	}
+@media (max-width: 480px) {
+  
 	
 }
