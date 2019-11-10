@@ -130,7 +130,7 @@ body {
   
   
   header {
-  height: auto;
+  height: 200px;
 }
 
   .container {
@@ -146,7 +146,7 @@ body {
     height: 1px;                  /* 高さ指定 */
     width: 100%;                    /* 幅指定 */            /* 文字サイズ指定 */ */
     padding:  15px;                 /* 余白指定 */
-    float:  right;                  /* 位置指定 */
+                      /* 位置指定 */
                /* 位置指定 */
     top: 15px;                     /* 位置指定 */
 }
