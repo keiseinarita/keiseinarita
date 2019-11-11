@@ -135,12 +135,11 @@ body {
 	}
 }
 @media screen and (max-width:480px) {
-	
-	
-	.text3 {
-	width: 500px;
-        
+	.pc{
+		display: none;
 	}
+	
+	
 		
 	
 			
