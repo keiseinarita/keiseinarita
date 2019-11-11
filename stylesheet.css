@@ -119,9 +119,7 @@ body {
   flex-direction: row-reverse;
 }
 
-.text3 {
-  height: 20px;
-  width:100%;	
+.text4 {
   color: white;
   font-size: 50px;
   line-height: 5px;
@@ -129,20 +127,18 @@ body {
 }
 
 
-@media screen and (min-width:481px) {
-	.sp{
+@media (max-width: 670px) {
+  .pc{
 		display: none;
 	}
-}
-@media screen and (max-width:480px) {
-	.pc{
-		display: none;
-	}
-	
-	.text3 {
-      width: 100%;
-	}
-		
-	
-			
+
+  .text4 {
+    color: white;
+    font-size: 26px;
+    line-height: 5px;
+  	text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
+  }
+
+
+
 }
