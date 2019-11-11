@@ -135,9 +135,7 @@ body {
 	}
 }
 @media screen and (max-width:480px) {
-	.pc{
-		display: none;
-	}
+	
 	
 	.text3 {
 	width: 100%;
