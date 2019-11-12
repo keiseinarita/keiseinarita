@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.wf-nicomoji { font-family: ".wf-nicomoji { font-family: "Nico Moji"; }"; }
+
+.wf-roundedmplus1c { font-family: "M PLUS Rounded 1c"; }
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
 .container {
     background-color: #FF3300;
     height: 25px;
@@ -25,7 +30,6 @@
     padding: 15px;       /* 背景色指定 */
        /* 背景色指定 */
 }
-
 
 
 
@@ -72,6 +76,7 @@ body {
 }
 
  .text {
+
 }
 
 .text2 {
@@ -134,11 +139,35 @@ body {
 
   .text4 {
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 5px;
   	text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
   }
 
+  .text2 li {
+    font-size: 25px;
+    font-family: monospace;
+    padding-top:10px;
+    font-weight: bolder;
+  }
+
+
+  .text2 span {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  h2 {
+   font-size: 50px;
+   margin: 0;
+   color: red;
+  }
+
+  h3 {
+   font-size: 27px;
+   padding: 5px;
+  }
 
 
 }
