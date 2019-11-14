@@ -113,10 +113,8 @@ body {
 }
 
 
-@media (max-width: 670px) {
-  .pc{
-		display: none;
-	}
+@media (max-width: 480px) {
+  
 
   .text4 {
     color: white;
