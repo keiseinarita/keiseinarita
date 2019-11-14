@@ -152,6 +152,7 @@ body {
   }
 
   .head_test {
+      width: 100%;
       color: red;           /*文字の色*/
       margin: 0;          /* デフォルトCSS打ち消し */
       font-size:  35px;      /* 文字サイズ指定 */
