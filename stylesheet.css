@@ -8,6 +8,10 @@
 
 .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
 
+body {
+  margin: 0px;
+  padding: 10px;
+}
 
 .head_test {
     color: red;           /*文字の色*/
@@ -18,157 +22,138 @@
     font-weight:  normal;   /* 文字の太さ調整 */
     background: linear-gradient(to right, rgb(3, 173,63) 0%,rgba(52,235,83,0.7) 30%,rgba(125,185,232,0) 100%);/* グラデーション指定 */
     padding:  10px;         /* 余白指定 */
-    margin-bottom: 15px;    /* 周りの余白指定 */
+    margin-bottom: 5px;    /* 周りの余白指定 */
     border-radius:  2px;    /* 角丸指定 */
     text-shadow:0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
 }
 
-.head_test span {
+    .head_test span {
       font-size: 25px;
       color: black;
       font-weight: bold;
     }
 
+    .text {
+      height: 100px;
+      margin-top: 30px;
 
-.head {
-  height: 50px;
-}
-
-header {
-  height: 100px;
-}
+    }
 
 
 
-body {
-  margin: 0px;
-  padding: 30px;
-}
+    .text h2 {
 
-.box {
-  float: left;
+      padding-bottom: 40px;
+      margin: 0;
+      height: 50px;
+      color: white;
+      font-size: 50px;
+    	text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
+    }
 
-  padding-bottom: 10px;
-  padding-top: 3px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
+    .text-2 h3 {
+      font-size: 30px;
+      font-weight: bold;
+    }
 
- .text {
+    .box {
+      float: left;
+      margin-top: 50px;
+    }
 
-}
+    .box-1 {
+      padding: 10px;
+    }
 
-.text2 {
-  padding: 30px;
-}
-
-.text2 li {
-  font-size: 30px;
-  font-family: monospace;
-  padding-top:10px;
-}
-
-.text2 span {
-  color: red;
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-
-
- h2 {
-  font-size: 55px;
-  margin: 0;
-  color: white;
-  text-shadow:0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000,0 0 10px #ff0000;
-}
-
-
- h3 {
-  font-size: 30px;
-  padding: 5px;
-}
+    .container {
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      width: 560px;
+      height: 315px;
+      background: #bbb;
+      text-align: center;
+    }
 
 
 
-.pict {
-  width: 100%;
-  margin-left: 3%;
-}
+    .container-2 {
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      width: 560px;
+      height: 315px;
+      background: #fff;
+      text-align: center;
+    }
 
-.pith img {
-  width: 100%;
-  height: auto;
-}
+    .container-2-text li {
+      font-size: 27px;
+      text-align: left;
+      font-weight: bold;
+    }
 
-.box:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.text4 {
-  color: white;
-  font-size: 50px;
-  line-height: 5px;
-	text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
-}
-
-
-@media (max-width: 480px) {
-  
-
-  .text4 {
-    color: white;
-    font-size: 25px;
-    line-height: 5px;
-  	text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
-  }
-
-  .text2 li {
-    font-size: 25px;
-    font-family: monospace;
-    padding-top:10px;
-    font-weight: bolder;
-  }
+    .container-2-text span {
+      color: red;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
 
 
-  .text2 span {
-    color: red;
-    font-size: 30px;
-    font-weight: bolder;
-  }
+    .container-3 {
+      float:left;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      width: 560px;
+      height: 315px;
 
-  h2 {
-   font-size: 50px;
-   margin: 0;
-   color: white;
-  }
+      text-align: center;
+    }
 
-  h3 {
-    width: auto;
-   font-size: 26px;
+    .container-4 {
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      width: 560px;
+      height: 315px;
+      text-align: center;
+    }
 
-  }
+    .container-4 h5 {
+      font-size: 30px;
+      text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
+      color: white;
+      font-family: "Sawarabi Mincho";
+    }
 
-  .head_test {
-      
-      color: red;           /*文字の色*/
-                /* デフォルトCSS打ち消し */
-      font-size:  35px;      /* 文字サイズ指定 */
-      font-family:  impact;   /* 文字種類 */
-      position:  relative;    /* 位置調整 */
-      font-weight:  normal;   /* 文字の太さ調整 */
-      background: linear-gradient(to right, rgb(3, 173,63) 0%,rgba(52,235,83,0.7) 30%,rgba(125,185,232,0) 100%);/* グラデーション指定 */
-      padding:  10px;         /* 余白指定 */
-      margin-bottom: 15px;    /* 周りの余白指定 */
-      border-radius:  2px;    /* 角丸指定 */
-      text-shadow:0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
-  }
+    .container-4 h6 {
+      font-size: 30px;
+      text-shadow:0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #000080,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff,0 0 7px #fff;
+      color: white;
+      font-family: "Sawarabi Mincho";
+    }
 
-  .head_test span {
-        font-size: 25px;
-        color: black;
-        font-weight: bold;
+    @media (max-width: 480px ) {
+
+      .head_test {
+        width: 600px;
       }
 
+      .text h2 {
+        font-size: 35px;
+        width: 470px;
+        margin-bottom: 5px;
+        text-align: center;
+      }
 
-}
+      .text-2 h3 {
+        font-size: 26px;
+        line-height: 27px;
+      }
+
+    }
