@@ -200,6 +200,13 @@ header {
 
 
        @media (max-width: 670px ) {
+	       
+	       
+	  body {
+ 	    margin: 0;
+	    background: #D9E5FF;
+	    width: auto;
+	 }     
 
          .head_test {
            color: red;           /*文字の色*/
