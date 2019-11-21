@@ -472,6 +472,10 @@ header {
              font-weight: bold;
            }
 
-
+             footer {
+             width: 850px;
+             float:left;
+            
+           }
        }
 
