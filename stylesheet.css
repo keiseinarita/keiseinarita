@@ -472,7 +472,7 @@ header {
              font-weight: bold;
            }
 
-             footer head-test{            
+             footer {            
              width: 850px;
              float:left;
              bottom: 0;
