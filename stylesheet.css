@@ -472,9 +472,12 @@ header {
              font-weight: bold;
            }
 
-             footer head-test{            
+             footer h3{            
              width: 850px;
-             
+             float:left;           
+             bottom: 0;
+             position: fixed ;
            }
+         }
        }
 
