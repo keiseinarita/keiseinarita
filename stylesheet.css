@@ -18,7 +18,7 @@ header {
   .head_test {
     color: red;           /*文字の色*/
     margin:  0;             /* デフォルトCSS打ち消し */
-    font-size:  35px;      /* 文字サイズ指定 */
+    font-size:  5px;      /* 文字サイズ指定 */
     font-family:  impact;   /* 文字種類 */
     width: 100%;  /* 位置調整 */
     font-weight:  bold;   /* 文字の太さ調整 */
@@ -299,7 +299,7 @@ header {
          .head_test {
            color: red;           /*文字の色*/
            margin:  0;             /* デフォルトCSS打ち消し */
-           font-size:  25px;      /* 文字サイズ指定 */
+           font-size:  45px;      /* 文字サイズ指定 */
            font-family:  impact;   /* 文字種類 */
            width: 100%;  /* 位置調整 */
            font-weight:  bold;   /* 文字の太さ調整 */
