@@ -299,7 +299,7 @@ header {
          .head_test {
            color: red;           /*文字の色*/
            margin:  0;             /* デフォルトCSS打ち消し */
-           font-size:  55px;      /* 文字サイズ指定 */
+           font-size:  38px;      /* 文字サイズ指定 */
            font-family:  impact;   /* 文字種類 */
            width: 100%;  /* 位置調整 */
            font-weight:  bold;   /* 文字の太さ調整 */
@@ -353,7 +353,7 @@ header {
               border-right: 5px solid;
               padding-left: 10px;
               margin-right: 0;
-              padding-top: 40px;
+              padding-top: 60px;
             }
 
             .typing .hello {
