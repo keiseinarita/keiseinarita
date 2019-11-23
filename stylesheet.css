@@ -5,6 +5,7 @@
 body {
  margin: 0;
  background: #D9E5FF;
+
 }
 
 
@@ -80,12 +81,33 @@ header {
      }
 
 
+     .box-1 p {
+       font-size: 26px;
+       float: left;
+       padding:50px;
+       font-weight: bold;
+       color: #000080;
+
+     }
+
+     .box-1 span {
+       font-family: Comic Sans MS;
+     }
+
+     .container-2-1 p {
+       font-size: 25px;
+       padding-left: 20px;
+       font-weight: bold;
+
+     }
+
+
      *, *:before, *:after {
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
      }
      .cp_cssslider {
-     background:#cccccc;
+     background:#D9E5FF;
      border: 10px solid #ffffff;
      box-shadow:1px 1px 5px rgba(0,0,0,0.7);
      height:315px;
@@ -235,6 +257,7 @@ header {
       font-size: 27px;
       text-align: left;
       font-weight: bold;
+
     }
 
     .container-4 span {
@@ -244,13 +267,15 @@ header {
       font-weight: bold;
     }
 
-
-
-
-  footer h3{
+    footer h3{
       float:left;
 
     }
+
+
+
+
+
 
 
 
@@ -292,11 +317,7 @@ header {
              font-weight: bold;
            }
 
-           body {
-            margin: 0;
-            background: #D9E5FF;
-            width: 100%;
-           }
+
 
            .box-1 iframe{
              width: 850px;
@@ -358,9 +379,31 @@ header {
             }
 
 
+            .box-1 p {
+              font-size: 35px;
+              width: 900px;
+              float: left;
+              padding-left:30px;
+              font-weight: bold;
+              color: #000080;
+            }
+
+            .box-1 span {
+              font-family: Comic Sans MS;
+            }
+
+            .container-2-1 p {
+              font-size: 33px;
+              padding: 50px 0px 50px 25px;
+              font-weight: bold;
+              width: 850px;
+            }
+
+
+
             .cp_cssslider {
         width: 800px;
-        height: 330px;
+        height: 340px;
         overflow: hidden;
         margin: 2em auto;
         border: 10px solid #ffffff;
@@ -369,7 +412,7 @@ header {
        }
        .cp_slide_item {
         width: 300px;
-        height: 200px;
+        height: 300px;
         float: left;
         position: relative;
        }
@@ -472,12 +515,11 @@ header {
              font-weight: bold;
            }
 
-             footer {     
-             float:left;  
-             width: 100%;          
-             bottom: 0;
-             position: fixed ;
-           
-         }
-       }
+           footer {
+             width: 850px;
+             float:left;
 
+             bottom: 0;
+               position: fixed ;
+           }
+     }
