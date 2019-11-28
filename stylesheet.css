@@ -542,7 +542,7 @@ header span {
  .container-4 span {
     color: red;
     text-align: center;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
   }
 
@@ -553,7 +553,7 @@ header span {
     }
 
     footer .head_test {
-      width: 100%;
+      width: 80%;
 
     }
 
