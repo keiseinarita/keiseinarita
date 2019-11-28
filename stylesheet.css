@@ -346,7 +346,7 @@ header span {
        position: relative;
        margin: 20px ;
        padding: 1em;
-       width: 72%; /* ボックス幅 */
+       width: 85%; /* ボックス幅 */
        background: #202020; /* ボックス背景色 */
        color: #fff; /* 文章色 */
        border: 7px solid #b2771f; /* 枠線 */
