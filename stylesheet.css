@@ -409,12 +409,12 @@ header span {
 
      #aspslide{
 
-      width:400px;
+      width:100%;
       height: 200px;
       overflow:hidden;
       padding:0!important;
       border: 10px solid #C5DACE;
-      margin-top: 80px;
+      margin-top: 30px;
 }
 
 
