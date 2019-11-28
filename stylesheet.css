@@ -409,7 +409,7 @@ header span {
 
      #aspslide{
 
-      width:100%;
+      width:90%;
       height: 200px;
       overflow:hidden;
       padding:10px!important;
@@ -542,7 +542,7 @@ header span {
  .container-4 span {
     color: red;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
   }
 
