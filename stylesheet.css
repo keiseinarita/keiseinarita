@@ -292,9 +292,6 @@ header span {
 
   @media (max-width: 670px ) {
 
-    * {
-      box-sizing: border-box;
-    }
 
     body {
       margin: 0;
