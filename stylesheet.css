@@ -64,7 +64,7 @@ body {
 
   .contents-bg {
     background-image: url(MAM.jpeg);
-    
+    background-position: right;
     
     height: 630px;
     width:100%;
