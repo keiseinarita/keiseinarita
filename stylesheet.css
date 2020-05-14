@@ -62,4 +62,9 @@ body {
   .body {
     width:100%;
   }
+  .contents h1 span {
+  color: #3458eb;
+  font-size: 70px;
 }
+}
+
