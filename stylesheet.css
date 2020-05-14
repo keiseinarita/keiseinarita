@@ -49,11 +49,21 @@ body {
   font-size: 20px;
   margin-top: 20px;
   margin-left: 20px;
+  
 }
 
 .bt1:hover {
   background: #668ad8;
   color: #FFF;
+}
+
+.menu-icon {
+  color: #fff;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /*displayをnoneに指定してください*/
+  display: none;
 }
 
 
@@ -102,6 +112,7 @@ body {
   transition: .4s;
   font-size: 20px;
   margin-top: 20px;
+  display: none;
   
   width:100%;
 }
@@ -110,7 +121,9 @@ body {
   background: #668ad8;
   color: #FFF;
 }
-
+.menu-icon {
+    display: block;
+  }
 
 }
 
