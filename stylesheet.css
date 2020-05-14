@@ -83,8 +83,9 @@ body {
 }
 
 .contents h1 span {
-  color: #0c3fa6;
+  color: #fff;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .bt1 {
