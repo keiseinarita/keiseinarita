@@ -64,7 +64,7 @@ body {
 
   .contents-bg {
     background-image: url(MAM.jpeg);
-    background-position: right;
+    background-position:left ;
     
     height: 630px;
     width:100%;
@@ -80,7 +80,7 @@ body {
     color: #ff0000;
     font-weight: bold;
     text-align: center;
-    font-size: 33px;
+    font-size: 35px;
     font-family: impact;
     margin-top: 140px;
 
@@ -90,6 +90,7 @@ body {
   color: #fff;
   font-size: 33px;
   font-weight: bold;
+  font-family:monospace;
 }
 .bt1 {
   position: relative;
