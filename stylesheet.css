@@ -91,7 +91,6 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
-
 .bt1 {
   position: relative;
   display: inline-block;
@@ -105,9 +104,8 @@ body {
   transition: .4s;
   font-size: 20px;
   margin-top: 20px;
+  margin-left: 20px;
   
-  
-  width:100%;
 }
 
 .bt1:hover {
