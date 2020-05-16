@@ -91,7 +91,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-family: impact;
-    margin-top: 120px;
+    margin-top: 100px;
 
 }
 
@@ -105,7 +105,7 @@ body {
   position: relative;
   display: inline-block;
   font-weight: bold;
-  padding: 0.1em 2em;
+  padding: 0.1em 1em;
   text-decoration: none;
   border-left: solid 4px #668ad8;
   border-right: solid 4px #668ad8;
@@ -114,8 +114,8 @@ body {
   transition: .4s;
   font-size: 17px;
   margin-top: 20px;
-  margin-left: 20px;
-  width:30%;
+  margin-left: 10px;
+  width:25%;
 }
 
 .bt1:hover {
