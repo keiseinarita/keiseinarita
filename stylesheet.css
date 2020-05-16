@@ -90,8 +90,8 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 35px;
-    font-family: impact;
-    margin-top: 110px;
+    font-family: fantasy;
+    margin-top: 105px;
 
 }
 
@@ -115,7 +115,7 @@ body {
   font-size: 17px;
   margin-top: 20px;
   margin-left: 0px;
-  width:30%;
+  width:35%;
 }
 
 .bt1:hover {
