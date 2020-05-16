@@ -75,13 +75,13 @@ body {
     background-image: url(MAM5.jpg);
     background-position:center ;
     
-    height: 580px;
+    height: 590px;
     width:100%;
 }
 
 .contents {
     background-color: rgba(0,0,0,0.6);
-    height: 580px;
+    height: 590px;
     width:100%;
 }
 
@@ -124,12 +124,11 @@ body {
 }
 .container {
   width: 100%;
-    height: 40px;
-    background-color: #668ad8;
-    color:#e1f3ff ;
-    text-align: center;
-    
-    font-size: 10px;
+  height: 40px;
+  background-color: #668ad8;
+  color:#e1f3ff ;
+  text-align: center;   
+  font-size: 13px;
 
 }
 
