@@ -75,13 +75,13 @@ body {
     background-image: url(MAM5.jpg);
     background-position:center ;
     
-    height: 630px;
+    height: 590px;
     width:100%;
 }
 
 .contents {
     background-color: rgba(0,0,0,0.6);
-    height: 630px;
+    height: 590px;
     width:100%;
 }
 
@@ -129,7 +129,7 @@ body {
     color:#e1f3ff ;
     text-align: center;
     padding-top: 5px;
-    font-size: 10px;
+    font-size: 7px;
 
 }
 
