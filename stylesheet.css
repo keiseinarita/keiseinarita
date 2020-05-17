@@ -71,10 +71,7 @@ body {
 
 @media (max-width: 670px ) {
   
-  *, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-}
+  
 
   .contents-bg {
     background-image: url(MAM5.jpg);
