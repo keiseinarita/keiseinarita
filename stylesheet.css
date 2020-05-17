@@ -49,7 +49,7 @@ body {
   font-size: 20px;
   margin-top: 20px;
   margin-left: 20px;
-  
+
 }
 
 .bt1:hover {
@@ -68,16 +68,13 @@ body {
 
 }
 
-.toggle {
-  display:none;
-}
 
 @media (max-width: 670px ) {
 
   .contents-bg {
     background-image: url(MAM5.jpg);
     background-position:center ;
-    
+
     height: 590px;
     width:100%;
 }
@@ -118,8 +115,7 @@ body {
   font-size: 17px;
   margin-top: 20px;
   margin-left: 0px;
-  width:80%;
-  display: none;
+  width:40%;
 }
 
 .bt1:hover {
@@ -131,59 +127,10 @@ body {
   height: 40px;
   background-color: #668ad8;
   color:#e1f3ff ;
-  text-align: center;   
+  text-align: center;
   font-size: 13px;
 
 }
-.toggle{
-    display: block;
-    position: relative;
-    width: 100%;
-    background: #222;
-  }
-
- .toggle a{
-    display: block;
-    position: relative;
-    padding: 12px 0 10px;
-    border-bottom: 1px solid #444;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-  }
-
- .toggle:before{
-    display: block;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    background: #fff;
-  }
-
-  .toggle a:before, .toggle a:after{
-    display: block;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    width: 20px;
-    height: 4px;
-    background: #222;
-  }
-
-  .toggle a:before{
-    margin-top: -6px;
-  }
-
-  .toggle a:after{
-    margin-top: 2px;
-  }
 
 }
-
-
 
