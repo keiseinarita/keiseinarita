@@ -78,14 +78,15 @@ body {
 }
 
 .area {
-    width: 400px;
+    width: 700px;
     border: 1px solid #ddd;
     overflow: hidden;
+    margin-left:100px;
 }
 /* 表示領域に合わせてサイズと余白を設定 */
 .marquee {
-    width: 400px;
-    padding-left: 400px;
+    width: 700px;
+    padding-left: 700px;
     white-space: nowrap;
 
     animation-name: marquee;
