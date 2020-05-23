@@ -78,14 +78,14 @@ body {
 }
 
 .area {
-    width: 900px;
+    width: 1100px;
     border: 1px solid #ddd;
     overflow: hidden;
     margin:0  200px;
 }
 /* 表示領域に合わせてサイズと余白を設定 */
 .marquee {
-    width: 900px;
+    width: 1100px;
     padding-left: 700px;
     white-space: nowrap;
 
