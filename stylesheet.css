@@ -90,9 +90,9 @@ body {
     width: 600px;
     padding-left: 600px;
     white-space: nowrap;
-
+    padding-right: 600px;
     animation-name: marquee;
-    animation-duration: 40s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -190,7 +190,7 @@ body {
     white-space: nowrap;
     font-size:25px;
     animation-name: marquee;
-    animation-duration: 40s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
