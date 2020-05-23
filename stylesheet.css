@@ -81,7 +81,9 @@ body {
     width: 300px;
     border: 1px solid #ddd;
     overflow: hidden;
-    padding-left:300px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
 }
 /* 表示領域に合わせてサイズと余白を設定 */
 .marquee {
@@ -90,7 +92,7 @@ body {
     white-space: nowrap;
 
     animation-name: marquee;
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
