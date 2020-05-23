@@ -182,7 +182,7 @@ body {
 /* 表示領域に合わせてサイズと余白を設定 */
 .marquee {
     width: 300px;
-    padding-left: 100px;
+    
     white-space: nowrap;
     font-size: 20px;
     animation-name: marquee;
