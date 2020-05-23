@@ -68,6 +68,12 @@ body {
 
 }
 
+h2 {
+  color:#fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 
 @media (max-width: 670px ) {
   
