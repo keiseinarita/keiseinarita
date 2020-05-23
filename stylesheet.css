@@ -68,10 +68,10 @@ body {
 
 }
 
-h3 {
+.marquee {
   color:#fff;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   margin-top: 10px;
   text-shadow:0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00;
