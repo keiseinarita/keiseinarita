@@ -74,14 +74,14 @@ body {
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
-  text-shadow:0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00;
+  text-shadow:0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff,0 0 3px #e1f3ff;
 }
 
 .area {
     width: 700px;
     border: 1px solid #ddd;
     overflow: hidden;
-    margin-left:100px;
+    margin:0  200px;
 }
 /* 表示領域に合わせてサイズと余白を設定 */
 .marquee {
