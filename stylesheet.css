@@ -81,6 +81,7 @@ body {
     width: 300px;
     border: 1px solid #ddd;
     overflow: hidden;
+    margin-left:300px;
 }
 /* 表示領域に合わせてサイズと余白を設定 */
 .marquee {
