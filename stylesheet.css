@@ -12,12 +12,12 @@ body {
     background-image: url(MAM.jpeg);
     background-size: cover;
     background-position: center;
-    height: 670px;
+    height: 675px;
 }
 
 .contents {
     background-color: rgba(0,0,0,0.5);
-    height: 670px;
+    height: 675px;
 }
 
 .contents h1 {
