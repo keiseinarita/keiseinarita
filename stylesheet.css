@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-#contents-bg {
+.contents-bg {
     background-image: url(MAM.jpeg);
     background-size: cover;
     background-position: center;
@@ -106,7 +106,7 @@ body {
   
   
 
-  #contents-bg {
+  .contents-bg {
     background-image: url(MAM5.jpg);
     background-position:center ;
 
