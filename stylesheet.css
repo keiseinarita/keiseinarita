@@ -138,7 +138,7 @@ body {
 }
 .bt1 {
   position: relative;
-  display: inline-block;
+  display: inline;
   font-weight: bold;
   padding: 0.1em 2em;
   text-decoration: none;
