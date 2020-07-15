@@ -21,7 +21,7 @@ body {
 }
 
 .contents h1 {
-    color: #fff;
+    color: #ff0000;
     font-weight: bold;
     text-align: center;
     font-size: 70px;
@@ -98,7 +98,7 @@ body {
 }
 @keyframes marquee {
     from    { transform: translate( 0%); } 
-    100%,to { transform: translate(100%); }
+    100%,to { transform: translate(-200%); }
 }
 
 
