@@ -224,9 +224,9 @@ footer {
     margin-top: 300px;
   }
 
-  .globalMenuSp {
+  /*.globalMenuSp {
    display:/*inline-*/block;
-   width: 170px;
+   /*width: 170px;
    text-align: center;
    background-color: #140385;
    border: 2px solid #140385;
@@ -238,8 +238,57 @@ footer {
    border-radius: 4px;
    position: relative;
    margin: 0;
-  }
+  }*/
 
+  .globalMenuSp {
+  display:/*inline-*/block;
+  width: 170px;
+  text-align: center;
+  background-color: #140385;
+  border: 2px solid #140385;
+  font-size: 25px;
+  color: ##140385;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 38px;
+  border-radius: 4px;
+  position: relative;
+  margin: 0;
+}
+
+.globalMenuSp span {
+  position: relative;
+  z-index: 1;
+}
+
+.globalMenuSp::before,
+.globalMenuSp::after {
+  content: "";
+  display: block;
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.globalMenuSp::before {
+  left: 0;
+}
+.globalMenuSp::after {
+  right: 0;
+}
+
+.globalMenuSp:hover:before,
+.globalMenuSp:hover:after {
+  width: 0;
+  background-color: #FFF;
+}
+
+.globalMenuSp:hover {
+  color: #FFF;
+}
+  
   h1 {
     color: #ff0000;
       font-weight: bold;
