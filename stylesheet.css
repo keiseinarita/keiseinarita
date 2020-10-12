@@ -1,81 +1,79 @@
 
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN",sans-serif;
-
-}
-* {
-    margin: 0;
-    padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.contents-bg {
-    background-image: url(MAM.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 675px;
+header {
+  height: 90px;
 }
 
-.contents {
-    background-color: rgba(0,0,0,0.5);
-    height: 675px;
+
+
+.aka {
+  background-color: #fa3c3f;
+  height : 30px;
+
 }
 
-.contents h1 {
-    color: #ff0000;
+.siro {
+  background-color: white;
+  height: 30px;
+}
+
+.midori {
+  background-color: #02f56f;
+
+  height: 30px;
+}
+
+div {
+  display: flex;
+  flex: 1;
+}
+main {
+  flex: 1;
+  background-image: url(MAM.jpeg);
+  background-size: cover;
+
+}
+
+.black {
+  background-color: rgba(0,0,0,0.5);
+  height: 552px;
+}
+
+.area1{
+  display: block;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #ff0000;
     font-weight: bold;
     text-align: center;
     font-size: 70px;
     font-family: fantasy;
-    margin-top: 170px;
-
+    margin:auto;
 }
 
-.contents h1 span {
-  color: #fff;
-  font-size: 70px;
+h1 span {
+ color: #fff;
+ font-size: 70px;
 }
 
-.bt1 {
-  position: relative;
-  display: inline-block;
-  font-weight: bold;
-  padding: 0.5em 3em;
-  text-decoration: none;
-  border-left: solid 4px #668ad8;
-  border-right: solid 4px #668ad8;
-  color: #668ad8;
-  background: #e1f3ff;
-  transition: .4s;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
 
-}
-
-.bt1:hover {
-  background: #668ad8;
-  color: #FFF;
-}
-
-.container {
-  width: 100%;
-    height: 40px;
-    background-color: #668ad8;
-    color:#e1f3ff ;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 20px;
-
-}
 
 .marquee {
+  display: inline-block;
   color:#fff;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
-  text-shadow:0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px#668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8;
+  text-shadow:0 0 5px #800000,0 0 5px #800000,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px#668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8;
 }
 
 .area {
@@ -86,9 +84,9 @@ body {
     margin-left: auto;
     margin-right:auto;
 }
-/* 表示領域に合わせてサイズと余白を設定 */
+
 .marquee {
-    width: 600px;
+    width: 200px;
     padding-left: 600px;
     white-space: nowrap;
     padding-right: 600px;
@@ -98,107 +96,190 @@ body {
     animation-iteration-count: infinite;
 }
 @keyframes marquee {
-    from    { transform: translate( 0%); } 
+    from    { transform: translate( 0%); }
     100%,to { transform: translate(-170%); }
+}
+
+
+
+
+nav {
+  width: 250px;
+  color:white;
+}
+
+li {
+  margin: 0;
+  height: 56px;
+}
+/*ul {
+  margin: 0;
+  padding: 0;
+}*/
+
+  .keitai{
+  display: none;
+}
+
+
+ .globalMenuSp {
+  display:/*inline-*/block;
+  width: 170px;
+  text-align: center;
+  background-color: #140385;
+  border: 2px solid #140385;
+  font-size: 25px;
+  color: ##140385;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 38px;
+  border-radius: 4px;
+  position: relative;
+  margin: 0;
+}
+
+.globalMenuSp span {
+  position: relative;
+  z-index: 1;
+}
+
+.globalMenuSp::before,
+.globalMenuSp::after {
+  content: "";
+  display: block;
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.globalMenuSp::before {
+  left: 0;
+}
+.globalMenuSp::after {
+  right: 0;
+}
+
+.globalMenuSp:hover:before,
+.globalMenuSp:hover:after {
+  width: 0;
+  background-color: #FFF;
+}
+
+.globalMenuSp:hover {
+  color: #FFF;
+}
+aside {
+  width: 250px;
+}
+
+iframe{
+  width: 250px;
+  height: 550px;
+  border: 10px solid #140385;
+  position: relative;
+}
+
+.kakoi {
+
+  border: 10px solid #140385;
+}
+
+footer {
+  height: 60px;
+  background-color: #668ad8;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff ;
+  text-align: center;
+  padding-top: 20px;
 }
 
 
 @media (max-width: 670px ) {
-  
-  
 
-  .contents-bg {
-    background-image: url(MAM5.jpg);
-    background-position:center ;
+ body {
+   width: 600px;
+   background-color: #d8f4ff;
+ }
 
-    height: 590px;
-    width:100%;
-}
+ header {
+   width: 100%;
+ }
 
-.contents {
-    background-color: rgba(0,0,0,0.6);
-    height: 590px;
-    width:100%;
-}
 
-.contents h1 {
+
+
+
+  nav {
+    width: 0;
+    color:white;
+
+  }
+
+
+  main {
+    margin-top: 300px;
+  }
+
+  .globalMenuSp {
+   display:/*inline-*/block;
+   width: 170px;
+   text-align: center;
+   background-color: #140385;
+   border: 2px solid #140385;
+   font-size: 25px;
+   color: ##140385;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 10px 38px;
+   border-radius: 4px;
+   position: relative;
+   margin: 0;
+  }
+
+  h1 {
     color: #ff0000;
-    font-weight: bold;
-    text-align: center;
-    font-size: 37px;
-    font-family: impact;
-    margin-top: 0px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 50px;
+      font-family: fantasy;
+      margin-top:100px;
+  }
 
-}
+  h1 span {
+   color: #fff;
+   font-size: 50px;
+  }
 
-.contents h1 span {
-  color: #fff;
-  font-size: 35px;
-  font-weight: bold;
-  font-family:monospace;
-}
-.bt1 {
-  position: relative;
-  display: inline-block;
-  font-weight: bold;
-  padding: 0.1em 2em;
-  text-decoration: none;
-  border-left: solid 4px #668ad8;
-  border-right: solid 4px #668ad8;
-  color: #668ad8;
-  background: #e1f3ff;
-  transition: .4s;
-  font-size: 17px;
-  margin-top: 20px;
-  margin-left: 0px;
-  width:35%;
-  
+.marquee　{
+  font-size: 40px;
 }
 
-.bt1:hover {
-  background: #668ad8;
-  color: #FFF;
+.area {
+  width:500px;
 }
-.container {
-  width: 100%;
-  height: 40px;
-  background-color: #668ad8;
-  color:#e1f3ff ;
-  text-align: center;
-  font-size: 13px;
 
-}
-  
-  h3 {
-  color:#fff;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-}
-  
-  .area {
-    width: 400px;
-    border: 1px solid #ddd;
-    overflow: hidden;
-    display:block;
-    margin-left: auto;
-    margin-right:auto;
-}
-/* 表示領域に合わせてサイズと余白を設定 */
-.marquee {
-    width: 400px;
-    padding-left: 400px;
-    white-space: nowrap;
-    font-size:25px;
-    animation-name: marquee;
-    animation-duration: 20s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-@keyframes marquee {
-    from    { transform: translate(0%); } 
-    100%,to { transform: translate(-170%); }
-}
+  .keitai {
+    width: 200px;
+    height: 230px;
+
+  }
+
+  aside {
+    width: 0px;
+  }
+
+  iframe{
+    display: inline-block;
+    height: 230px;
+    position: fixed;
+
+    top: 120px;
+    left: 300px;
+  }
+
 
 
 
