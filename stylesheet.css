@@ -302,7 +302,8 @@ footer {
   h1 span {
    color: #fff;
    font-size: 50px;
-   font-weight: bold; 
+   font-weight: bold;
+   font-family: fantasy; 
   }
 
 .marquee　{
