@@ -201,6 +201,7 @@ footer {
 
  body {
    max-width: 110%;
+   flex: 1;
    
    background-color: #d8f4ff;
  }
@@ -265,7 +266,7 @@ footer {
 }
 
 .area {
-  width:600px;
+  width:500px;
 }
 
   .keitai {
