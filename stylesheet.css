@@ -201,17 +201,17 @@ footer {
 
  body {
    max-width: 130%;
-   height: 40vh;
+   height: 30vh;
    background-color: #d8f4ff;
  }
 
- header {
+ /*header {
    max-width: 100%;
  }
   
  footer {
    max-width: 100%;
-  }
+  }*/
 
  
 
