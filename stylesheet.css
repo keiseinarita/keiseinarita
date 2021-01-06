@@ -201,7 +201,7 @@ footer {
 
  body {
    max-width: 130%;
-   height: 30vh;
+   /*height: 30vh;*/
    background-color: #d8f4ff;
  }
 
