@@ -206,13 +206,14 @@ footer {
  }
 
  header {
-   width: 100%;
+   max-width: 100%;
  }
-
+  
  footer {
-   width: 100%;
+   max-width: 100%;
   }
 
+ 
 
 
 
@@ -273,9 +274,9 @@ footer {
 
   }
 
-  /*aside {
+  aside {
     width: 0px;
-  }*/
+  }
 
   iframe{
     display: inline-block;
