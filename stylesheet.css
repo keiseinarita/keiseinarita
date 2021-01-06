@@ -200,7 +200,7 @@ footer {
 @media (max-width: 670px ) {
 
  body {
-   width: 100%;
+   width: 134%;
    height: 30%;
    background-color: #d8f4ff;
  }
@@ -253,7 +253,7 @@ footer {
 
   h1 span {
    color: #fff;
-   font-size: 50px;
+   font-size: 45px;
   }
 
 .marquee　{
