@@ -201,17 +201,17 @@ footer {
 
  body {
    max-width: 110%;
-   height: 400px;
-   background-color: #a0f7dd;
+   
+   background-color: #d8f4ff;
  }
 
- /*header {
+ header {
    max-width: 100%;
  }
   
  footer {
    max-width: 100%;
-  }*/
+  }
 
  
 
@@ -227,7 +227,7 @@ footer {
 
   main {
     margin-top: 300px;
-    width: auto;
+    /*width: auto;*/
   }
 
   .globalMenuSp {
