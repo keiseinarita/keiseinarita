@@ -203,7 +203,7 @@ footer {
    max-width: 480px;
    flex: 1;
    
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -269,14 +269,14 @@ footer {
   width:400px;
 }
 
-  .keitai {
+  /*.keitai {
     width: 150px;
-    height: 200px;
+    height: 200px;*/
 
   }
 
   aside {
-    display: none;
+    /*display: none;*/
   }
 
   iframe{
