@@ -203,13 +203,21 @@ footer {
  .aka {
    height :10px;
   }
+  
+  .siro{
+    height: 10px;
+  }
+  
+  .midori {
+   height: 10px;
+  }
 
  body {
    max-width: 400px;
    flex: 1;
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -233,7 +241,7 @@ footer {
 
 
   main {
-    margin-top: 100px;
+    margin-top: 90px;
     height: auto;
     /*width: auto;*/
   }
