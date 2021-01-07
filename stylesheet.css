@@ -198,6 +198,10 @@ footer {
 
 
 @media (max-width: 670px ) {
+  
+  
+ .aka {
+   height :10px;
 
  body {
    max-width: 400px;
