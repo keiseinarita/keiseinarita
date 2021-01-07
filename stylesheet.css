@@ -203,7 +203,7 @@ footer {
    max-width: 500px;
    flex: 1;
    
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -228,7 +228,7 @@ footer {
 
   main {
     margin-top: 100px;
-    width: auto;
+    /*width: auto;*/
   }
 
   .globalMenuSp {
