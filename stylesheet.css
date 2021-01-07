@@ -204,7 +204,7 @@ footer {
    flex: 1;
    height: auto; 
    
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -229,6 +229,7 @@ footer {
 
   main {
     margin-top: 100px;
+    height: auto;
     /*width: auto;*/
   }
 
