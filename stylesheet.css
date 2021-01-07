@@ -200,14 +200,14 @@ footer {
 @media (max-width: 670px ) {
 
  body {
-   max-width: 550px;
+   max-width: 500px;
    flex: 1;
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
-   max-width: 450px;
+   max-width: 100%;
  }
   
  footer {
