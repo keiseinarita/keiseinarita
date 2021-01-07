@@ -201,9 +201,9 @@ footer {
 
  body {
    max-width: 450px;
+   flex: 1;
    
-   
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
