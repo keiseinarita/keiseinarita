@@ -217,7 +217,7 @@ footer {
    /*flex: 1;*/
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -301,8 +301,8 @@ footer {
     /*position: absolut;*?
     /*padding-top:30px;*/
     /*padding-right: 30px*/
-    top: 70px;
-    left: 0px;
+    top: -50px;
+    left: -100px;
   }
 
 }
