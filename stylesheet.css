@@ -217,7 +217,7 @@ footer {
    /*flex: 1;*/
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -298,7 +298,7 @@ footer {
   iframe{
     /*display: inline-block;*/
     height: 200px;
-    position: fixed;
+    /*position: fixed;*/
 
     top: 100px;
     left: 200px;
