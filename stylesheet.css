@@ -207,6 +207,8 @@ footer {
 
  header {
    width: 100%;
+   position: fixed;
+   top:0px;
  }
 
 .aka{
@@ -308,7 +310,7 @@ footer {
 
   footer {
     position: fixed;
-    top:650px;
+    top:635px;
     width: 100%;
     left 0px;
     height: 40px;
