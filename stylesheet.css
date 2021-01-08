@@ -217,11 +217,12 @@ footer {
    flex: 1;
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
    max-width: 100%;
+   height: 30px;
  }
   
  footer {
