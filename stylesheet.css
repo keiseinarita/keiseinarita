@@ -198,37 +198,18 @@ footer {
 
 
 @media (max-width: 670px ) {
-  
-  
- .aka {
-   height :10px;
-  }
-  
-  .siro{
-    height: 10px;
-  }
-  
-  .midori {
-   height: 10px;
-  }
 
  body {
-   max-width: 100%;
-   /*height: auto;*/
-   flex: 1;   
-   background-color: #caf9ee;
+   width: 134%;
+   height: 50%;
+   background-color: #d8f4ff;
  }
 
  header {
-   max-width: 100%;
-   height: 30px;
+   width: 100%;
  }
-  
- footer {
-   max-width: 100%;
-  }
 
- 
+
 
 
 
@@ -241,18 +222,17 @@ footer {
 
 
   main {
-    margin-top: 70px;
-    /*height: 100px;*/
-    /*width: auto;*/
+    margin-top: 300px;
+    width: auto;
   }
 
   .globalMenuSp {
    display:/*inline-*/block;
-   width: 100px;
+   width: 170px;
    text-align: center;
    background-color: #140385;
    border: 2px solid #140385;
-   font-size: 20px;
+   font-size: 25px;
    color: ##140385;
    text-decoration: none;
    font-weight: bold;
@@ -266,7 +246,7 @@ footer {
     color: #ff0000;
       font-weight: bold;
       text-align: center;
-      font-size: 45px;
+      font-size: 50px;
       font-family: fantasy;
       margin-top:100px;
       text-shadow : 
@@ -282,8 +262,7 @@ footer {
 
   h1 span {
    color: #fff;
-   font-size: 35px;
-   text-shadow: none;
+   font-size: 50px;
   }
 
 .marquee　{
@@ -291,31 +270,33 @@ footer {
 }
 
 .area {
-  max-width:100%;
+  width:500px;
 }
 
-  /*.keitai {
-    width: 150px;
-    height: 200px;
+  .keitai {
+    width: 200px;
+    height: 230px;
 
-  }*/
+  }
 
   aside {
-    /*display: none;*/
+    display: none;
   }
 
+
+
+
   iframe{
-    width: 150px;
-    /*display: inline-block;*/
-    height: 200px;
-    /*position: absolut;*?
-    /*padding-top:30px;*/
-    /*padding-right: 30px*/
-    top: 0px;
-    left: -190px;
+    display: inline-block;
+    height: 230px;
+    position: fixed;
+
+    top: 120px;
+    left: 300px;
   }
 
 }
+
 
 
 
