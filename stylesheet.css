@@ -217,7 +217,7 @@ footer {
    flex: 1;
     
    
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -270,6 +270,15 @@ footer {
       font-size: 45px;
       font-family: fantasy;
       margin-top:100px;
+      text-shadow : 
+        2px  2px 1px #ff0000,
+       -2px  2px 1px #ff0000,
+        2px -2px 1px #ff0000,
+       -2px -2px 1px #ff0000,
+        2px  0px 1px #ff0000,
+        0px  2px 1px #ff0000,
+       -2px  0px 1px #ff0000,
+        0px -2px 1px #ff0000;
   }
 
   h1 span {
@@ -296,14 +305,14 @@ footer {
   }
 
   iframe{
-    width: 100px;
+    width: 150px;
     /*display: inline-block;*/
     height: 200px;
     /*position: absolut;*?
     /*padding-top:30px;*/
     /*padding-right: 30px*/
-    top: -20px;
-    left: -150px;
+    top: -10px;
+    left: -170px;
   }
 
 }
