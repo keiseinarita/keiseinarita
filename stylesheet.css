@@ -217,7 +217,7 @@ footer {
    flex: 1;
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -243,7 +243,7 @@ footer {
 
   main {
     margin-top: 70px;
-    height: 100px;
+    /*height: 100px;*/
     /*width: auto;*/
   }
 
