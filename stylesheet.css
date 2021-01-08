@@ -200,9 +200,9 @@ footer {
 @media (max-width: 670px ) {
 
  body {
-   width: 134%;
+   width: 124%;
    height: 50%;
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -312,12 +312,14 @@ footer {
     width: 100%;
     left 0px;
     height: 40px;
+    padding-top: 10px;
+    
   
 }
 
 
 
-
+}
 
 
 
