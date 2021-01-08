@@ -217,7 +217,7 @@ footer {
    /*flex: 1;*/
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -302,7 +302,7 @@ footer {
     /*padding-top:30px;*/
     /*padding-right: 30px*/
     top: 70px;
-    right: 100px;
+    left: 100px;
   }
 
 }
