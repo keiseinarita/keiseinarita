@@ -202,7 +202,7 @@ footer {
  body {
    width: 134%;
    height: 50%;
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -281,7 +281,7 @@ footer {
 }
 
 .area {
-  width:480px;
+  width:380px;
 }
 
   .keitai {
@@ -301,14 +301,15 @@ footer {
     /*display: inline-block;*/
     height: 230px;
     position: absolute;
-
+    width: 150px;
     top:  70px;
-    left: 250px;
+    left: 255px;
   }
 
   footer {
     position: fixed;
-    top:700px;
+    top:650px;
+    width: 100%;
     left 0px;
   
 }
