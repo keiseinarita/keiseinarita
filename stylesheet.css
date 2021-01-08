@@ -202,14 +202,24 @@ footer {
  body {
    width: 134%;
    height: 50%;
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
    width: 100%;
  }
 
-
+.aka{
+  height: 10px;
+  }
+  
+.siro{
+  height: 10px;
+  }
+  
+.midori{
+  height: 10px;
+  }
 
 
 
@@ -281,7 +291,7 @@ footer {
   }
 
   aside {
-    display: none;
+    /*display: none;*/
   }
 
 
