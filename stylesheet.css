@@ -213,11 +213,11 @@ footer {
   }
 
  body {
-   max-width: 400px;
+   max-width: 100%;
    flex: 1;
     
    
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -284,6 +284,7 @@ footer {
   h1 span {
    color: #fff;
    font-size: 35px;
+   text-shadow: none;
   }
 
 .marquee　{
@@ -311,8 +312,8 @@ footer {
     /*position: absolut;*?
     /*padding-top:30px;*/
     /*padding-right: 30px*/
-    top: -10px;
-    left: -170px;
+    top: 0px;
+    left: -190px;
   }
 
 }
