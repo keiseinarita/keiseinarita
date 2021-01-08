@@ -213,12 +213,10 @@ footer {
   }
 
  body {
-   max-width: 380px;
+   width: 380px;
    height: auto;
-   flex: 1;
-   
-   
-   background-color: #d8f4ff;
+   flex: 1;   
+   background-color: #caf9ee;
  }
 
  header {
