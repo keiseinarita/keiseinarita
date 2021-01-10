@@ -200,10 +200,10 @@ footer {
 @media (max-width: 670px ) {
 
  body {
-   display: flex;
-   width: 300px;
+   
+   width: 400px;
    height: auto;
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
  }
 
  header {
@@ -228,7 +228,7 @@ footer {
 
 
   nav {
-    width: 0;
+    width: 100px;
     color:white;
     background-color: #870e0e;
 
@@ -285,7 +285,7 @@ footer {
 }
 
 .area {
-  width:300px;
+  width:400px;
 }
 
   .keitai {
