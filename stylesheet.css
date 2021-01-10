@@ -282,7 +282,16 @@ footer {
   h1 span {
    color: #fff;
    font-size: 35px;
-    text-shadow: none;
+    text-shadow : 
+        2px  2px 1px #fff,
+       -2px  2px 1px #fff,
+        2px -2px 1px #fff,
+       -2px -2px 1px #fff,
+        2px  0px 1px #fff,
+        0px  2px 1px #fff,
+       -2px  0px 1px #fff,
+        0px -2px 1px #fff;
+    
   }
 
 .marquee　{
