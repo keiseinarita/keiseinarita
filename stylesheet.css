@@ -203,7 +203,7 @@ footer {
    
    width: 400px;
    height: auto;
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
    position: fixed;
  }
 
@@ -238,7 +238,7 @@ footer {
 
 
   main {
-    background-image: url(IMG_1387.jpg);
+    background-image: url(IMG_1392.jpg);
     margin-top: 70px;
     width: 480px;
     
@@ -251,7 +251,7 @@ footer {
    text-align: center;
    background-color: #140385;
    border: 2px solid #140385;
-   font-size: 17px;
+   font-size: 20px;
    color: ##140385;
    text-decoration: none;
    font-weight: bold;
