@@ -203,7 +203,8 @@ footer {
    
    width: 400px;
    height: auto;
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
+   position: fixed;
  }
 
  header {
@@ -239,7 +240,7 @@ footer {
   main {
     margin-top: 70px;
     width: 480px;
-    position: fixed;
+    
   }
   
 
@@ -306,11 +307,11 @@ footer {
 
   iframe{
     /*display: inline-block;*/
-    height: 230px;
+    height: 200px;
     position: absolute;
-    width: 140px;
+    width: 150px;
     top:  30px;
-    left: 240px;
+    left: 230px;
   }
 
   footer {
