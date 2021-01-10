@@ -200,7 +200,7 @@ footer {
 @media (max-width: 670px ) {
 
  body {
-   width: 100%;
+   width: 300px;
    height: auto;
    background-color: #d8f4ff;
  }
@@ -236,7 +236,7 @@ footer {
 
   main {
     margin-top: 70px;
-    width: 100%;
+    width: 300px;
   }
 
   .globalMenuSp {
@@ -284,7 +284,7 @@ footer {
 }
 
 .area {
-  width:100%;
+  width:300px;
 }
 
   .keitai {
