@@ -203,7 +203,7 @@ footer {
    
    width: 400px;
    height: auto;
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -239,7 +239,9 @@ footer {
   main {
     margin-top: 70px;
     width: 480px;
+    position: fixed;
   }
+  
 
   .globalMenuSp {
    display:/*inline-*/block;
