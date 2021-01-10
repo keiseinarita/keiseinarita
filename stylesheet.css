@@ -203,7 +203,7 @@ footer {
    
    width: 400px;
    height: auto;
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
@@ -231,6 +231,7 @@ footer {
     width: 0px;
     color:white;
     background-color: #870e0e;
+    margin-top:30px;
 
   }
 
@@ -253,7 +254,7 @@ footer {
    padding: 10px 38px;
    border-radius: 4px;
    position: relative;
-   margin-top: 30px;
+   margin: 0px;
   }
 
   h1 {
@@ -276,7 +277,7 @@ footer {
 
   h1 span {
    color: #fff;
-   font-size: 40px;
+   font-size: 35px;
     text-shadow: none;
   }
 
@@ -312,7 +313,7 @@ footer {
 
   footer {
     position: fixed;
-    top: 579px;
+    top: 578px;
     width: 100%;
     left 0px;
     height: 40px;
