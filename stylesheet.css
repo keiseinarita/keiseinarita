@@ -282,7 +282,7 @@ footer {
   h1 span {
    color: #fff;
    font-size: 35px;
-    text-shadow : 
+   /*text-shadow : 
         1px  1px 1px #fff,
        -1px  1px 1px #fff,
         1px -1px 1px #fff,
@@ -290,7 +290,8 @@ footer {
         1px  0px 1px #fff,
         0px  1px 1px #fff,
        -1px  0px 1px #fff,
-        0px -1px 1px #fff;
+        0px -1px 1px #fff;*/
+    text-shadow:0 0 5px #800000,0 0 5px #800000,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px#668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8,0 0 5px #668ad8;
     
   }
 
