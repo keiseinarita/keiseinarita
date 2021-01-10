@@ -203,7 +203,7 @@ footer {
    
    width: 400px;
    height: auto;
-   background-color: #caf9ee;
+   background-color: #d8f4ff;
    position: fixed;
  }
 
@@ -251,11 +251,11 @@ footer {
    text-align: center;
    background-color: #140385;
    border: 2px solid #140385;
-   font-size: 20px;
+   font-size: 17px;
    color: ##140385;
    text-decoration: none;
    font-weight: bold;
-   padding: 7px 38px;
+   padding: 10px 38px;
    border-radius: 4px;
    position: relative;
    margin: 0px;
@@ -312,7 +312,7 @@ footer {
     position: absolute;
     width: 150px;
     top:  30px;
-    left: 230px;
+    left: 210px;
   }
 
   footer {
