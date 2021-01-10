@@ -200,9 +200,10 @@ footer {
 @media (max-width: 670px ) {
 
  body {
+   display: flex;
    width: 300px;
    height: auto;
-   background-color: #d8f4ff;
+   background-color: #caf9ee;
  }
 
  header {
